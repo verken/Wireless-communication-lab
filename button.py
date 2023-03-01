@@ -5,7 +5,7 @@ import time
 GPIO.setmode(GPIO.BCM)
   
 # Here the input pin is declared, to which the sensor is connected. Additionally the PullUP resistor at the input will be activated
-GPIO_PIN = 24
+GPIO_PIN = 2
 GPIO.setup(GPIO_PIN, GPIO.IN, pull_up_down = GPIO.PUD_UP)
   
 print ("Sensor test [press CTRL+C to exit test]")
