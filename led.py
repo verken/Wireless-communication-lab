@@ -2,7 +2,7 @@ from gpiozero import RGBLED
 from time import sleep
 
 # Set up RGB LED
-led = RGBLED(red=10, green=9, blue=11) # Assuming the KY-009 module is connected to GPIO pins 10, 9, and 11 for red, green, and blue respectively
+led = RGBLED(red=22, green=17, blue=27) # Assuming the KY-009 module is connected to GPIO pins 10, 9, and 11 for red, green, and blue respectively
 
 # Loop to cycle through colors
 while True:
