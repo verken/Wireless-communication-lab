@@ -8,10 +8,7 @@ button = Button(2)
 
 def main():
 	print("=============================================================================")
-	while True
-		button.when_pressed = catch_temp
-		time.sleep(1)	
-    def catch_temp()
+	def catch_temp()
         try:
             timestamp = time.asctime()
             temperature = dht.temperature
@@ -23,6 +20,10 @@ def main():
             print(error)
             print("=============================================================================")
             return
+    while True
+		button.when_pressed = catch_temp
+		time.sleep(1)	
+   
 
 
 	
